@@ -1,0 +1,38 @@
+body{
+    background-image: url(https://img2.goodfon.com/original/2560x1600/b/a7/stil-interer-ofis-delovoi-tsentr-krasivyi-vid-okno-gorod-vys.jpg);
+    
+    background-attachment: fixed;
+    
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  position: relative;
+}
+
+.contact-form{
+    background: rgba(0,0,0, .6);
+    color: white;
+    margin-top: 50px;
+    width: 40%;
+    padding: 20px;
+    /* box-sizing: 10%; */
+    box-shadow: 0px 0px 10px 3px grey;
+    /* width: 900px; */
+}
+
+/* body{
+    background-image: "image\6.jpg";
+} */
+
+.box{
+    align-items: center;
+}
+
+hr{
+    background: white;
+}
+
+/* .box1{
+    margin-top: 5px;
+    padding: 2px;
+} */
