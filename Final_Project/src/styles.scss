@@ -1,0 +1,96 @@
+* {
+  box-sizing: border-box;
+  .app{
+    background-image: url(https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTJP9N70dD5F5k-pCLTnTBed5y3qqazP60REA&usqp=CAU);
+  }
+}
+
+// @import url('https://fonts.googleapis.com/css2?family=Yellowtail&display=swap');
+
+.App {
+  font-family: "Ubuntu", sans-serif;
+  text-align: center;
+  
+}
+.App {
+  display: flex;
+}
+.App section + section {
+  flex-grow: 1;
+}
+.App section:first-child {
+  padding-right: 15px;
+}
+.App section #badgeWrapper {
+  padding: 15px;
+  max-width: 800px;
+}
+.App section #badgeWrapper #badge {
+  display: inline-block;
+  position: relative;
+  border-radius: 10px;
+  overflow: hidden;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.75);
+}
+.App section #badgeWrapper #badge img {
+  display: block;
+}
+.App section #badgeWrapper #badge img.URLImage {
+  position: absolute;
+  z-index: 1;
+  left: 30%;
+  top: 20px;
+  border-radius: 90%;
+  border-style: solid;
+  border-color: rgb(255, 255, 255);
+  // width: 50%;
+  height: 60%;
+  transform: translateX(-50%);
+  width: 200px;
+}
+.App section #badgeWrapper #badge p {
+  line-height: 1;
+  position: absolute;
+  z-index: 1;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  margin: 0;
+  padding: 15px;
+  font-size: 3em;
+  color: Black;
+  // text-shadow: 0 0 15px #5B1ED6;
+  // font-family: 'Yellowtail', cursive;
+}
+.App section form {
+  padding: 15px;
+}
+.App section form input {
+  padding: 5px;
+  font-family: inherit;
+  border: 1px solid #ccf;
+  border-radius: 5px;
+  width: 75%;
+  font-size: 1.5em;
+  text-align: center;
+  margin: 0 0 10px;
+  
+}
+.App section form input[type="submit"] {
+  background-color: #eef;
+  cursor: pointer;
+  transition: background-color 0.25s linear;
+}
+.App section form input[type="submit"]:hover {
+  background-color: #ccf;
+}
+@media screen and (max-width: 1200px) {
+  .App {
+    display: block;
+  }
+}
+
+.App h1{
+  z-index: 1;
+}
+
